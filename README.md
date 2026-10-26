@@ -11,20 +11,13 @@ Nobody programs the rules of "how to play well". The snake plays thousands of ga
 
 ## Demo video (3 min 50 s)
 
-[![Watch the explainer video](docs/video_thumbnail.png)](demo_video/Video_2_SFX_Voiceover.mp4)
+[![Watch the explainer video](docs/video_thumbnail.png)](https://drive.google.com/file/d/1W0NY9VkxspQOH8sgwgk3xiJ77glxOo4S/view?usp=sharing)
 
-Click the picture to open the video. It explains the whole project visually: what the snake sees, the Q-table, the update formula with three real examples from training, why it looks at the next situation, what a Q-value really is, delayed gratification, and the results.
+**[Watch the video on Google Drive](https://drive.google.com/file/d/1W0NY9VkxspQOH8sgwgk3xiJ77glxOo4S/view?usp=sharing)**
 
-There are two versions of the same video:
+It explains the whole project visually: what the snake sees, the Q-table, the update formula with three real examples from training, why it looks at the next situation, what a Q-value really is, delayed gratification, and the results.
 
-| Version | File | For |
-|---|---|---|
-| **Video 2: with voiceover** | [`demo_video/Video_2_SFX_Voiceover.mp4`](demo_video/Video_2_SFX_Voiceover.mp4) | Watching on its own |
-| **Video 1: sound effects only** | [`demo_video/Video_1_SFX.mp4`](demo_video/Video_1_SFX.mp4) | Presenting live while speaking over it |
-
-> **Note:** GitHub cannot play files this large inside the page. Click a video link, then press **Download raw file** (about 21 MB each) and open it in any video player.
-
-The voiceover text is listed in [`demo_video/voiceover_script.txt`](demo_video/voiceover_script.txt).
+The same video file is in this repository at [`demo_video/Video_2_SFX_Voiceover.mp4`](demo_video/Video_2_SFX_Voiceover.mp4). GitHub downloads files this large instead of playing them, so the Drive link is the easiest way to watch. The voiceover text is in [`demo_video/voiceover_script.txt`](demo_video/voiceover_script.txt).
 
 **Project report (PDF):** [`docs/Project_Report.pdf`](docs/Project_Report.pdf)
 
@@ -118,7 +111,7 @@ ui/                 the window: menu, board, side panel, sounds
 tests/              26 automated tests
 results/            graphs, evaluation numbers, the full Q-table
 docs/               images and the project report
-demo_video/         the explainer video (two versions) and the voiceover script
+demo_video/         the explainer video and the voiceover script
 q_table.npz         the trained table (3,000 games)
 ```
 
