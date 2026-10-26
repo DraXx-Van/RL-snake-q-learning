@@ -1,0 +1,16 @@
+VOICEOVER SCRIPT (what the voice says, and when)
+
+0:01.0   [title]   A snake that teaches itself to play.
+0:05.2   [idea]   It tries a move, gets a reward, and learns.
+0:16.5   [state]   It sees just seven yes-or-no facts.
+0:34.8   [qtable]   Every move, in every situation, gets a score.
+1:03.1   [case1]   Eat an apple: plus ten. The score rises.
+1:18.6   [case2]   Crash: minus ten. The score drops.
+1:34.5   [chain]   Only the last move gets paid. The earlier ones borrow its value.
+1:50.1   [case3]   No reward, but a good next step still lifts the score.
+2:05.2   [value]   A Q-value is not points for the next move. It is the value of everything that follows.
+2:14.7   [returns]   The number adds up a whole sequence of moves. It is learned from experience, not simulated.
+2:29.0   [delayed]   A greedy snake grabs the quick apple and dies. A long-term snake waits.
+2:46.2   [case4]   Now it just looks up the table, and plays.
+3:27.6   [results]   Random scores almost nothing. Ours averages twenty-three.
+3:47.8   [next]   Now, the live demo.

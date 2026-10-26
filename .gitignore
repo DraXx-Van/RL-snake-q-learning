@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# local backups / editor / tool folders
+q_table.prev.npz
+.claude/
+.vscode/
+*.tmp
+demo_video/*Copy*
