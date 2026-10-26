@@ -1,4 +1,4 @@
-﻿# Snake × Q-Learning
+# Snake × Q-Learning
 
 **A snake that teaches itself to play, using Reinforcement Learning.**
 Nobody programs the rules of "how to play well". The snake plays thousands of games, gets rewards and penalties, and slowly learns which move is best in every situation.
@@ -23,6 +23,8 @@ There are two versions of the same video:
 | **Video 1: sound effects only** | [`demo_video/Video_1_SFX.mp4`](demo_video/Video_1_SFX.mp4) | Presenting live while speaking over it |
 
 The voiceover text is listed in [`demo_video/voiceover_script.txt`](demo_video/voiceover_script.txt).
+
+**Project report (PDF):** [`docs/Project_Report.pdf`](docs/Project_Report.pdf)
 
 ## The app
 
