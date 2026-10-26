@@ -22,6 +22,8 @@ There are two versions of the same video:
 | **Video 2: with voiceover** | [`demo_video/Video_2_SFX_Voiceover.mp4`](demo_video/Video_2_SFX_Voiceover.mp4) | Watching on its own |
 | **Video 1: sound effects only** | [`demo_video/Video_1_SFX.mp4`](demo_video/Video_1_SFX.mp4) | Presenting live while speaking over it |
 
+> **Note:** GitHub cannot play files this large inside the page. Click a video link, then press **Download raw file** (about 21 MB each) and open it in any video player.
+
 The voiceover text is listed in [`demo_video/voiceover_script.txt`](demo_video/voiceover_script.txt).
 
 **Project report (PDF):** [`docs/Project_Report.pdf`](docs/Project_Report.pdf)
@@ -78,8 +80,8 @@ The snake was trained for **3,000 games (about 10 seconds)** and then tested on 
 Needs Python 3.10 or newer.
 
 ```bash
-git clone <this repository>
-cd <folder>
+git clone https://github.com/DraXx-Van/RL.git
+cd RL
 python -m venv venv
 venv\Scripts\activate          # Windows   (Linux/Mac: source venv/bin/activate)
 pip install -r requirements.txt
