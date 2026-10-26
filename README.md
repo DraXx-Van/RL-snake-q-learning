@@ -5,7 +5,7 @@ Nobody programs the rules of "how to play well". The snake plays thousands of ga
 
 > Deep Learning & Reinforcement Learning (DLRL) mini project
 
-**Team:** Evans Pereira · Dakshat Jain · Shaurya Sanil
+**Team:** Evans Pereira (10689) · Dakshat Jain (10663) · Shaurya Sanil (10698)
 
 ---
 
@@ -14,7 +14,15 @@ Nobody programs the rules of "how to play well". The snake plays thousands of ga
 [![Watch the explainer video](docs/video_thumbnail.png)](demo_video/Video_2_SFX_Voiceover.mp4)
 
 Click the picture to open the video. It explains the whole project visually: what the snake sees, the Q-table, the update formula with three real examples from training, why it looks at the next situation, what a Q-value really is, delayed gratification, and the results.
-The narration is listed in [`demo_video/voiceover_script.txt`](demo_video/voiceover_script.txt).
+
+There are two versions of the same video:
+
+| Version | File | For |
+|---|---|---|
+| **Video 2: with voiceover** | [`demo_video/Video_2_SFX_Voiceover.mp4`](demo_video/Video_2_SFX_Voiceover.mp4) | Watching on its own |
+| **Video 1: sound effects only** | [`demo_video/Video_1_SFX.mp4`](demo_video/Video_1_SFX.mp4) | Presenting live while speaking over it |
+
+The voiceover text is listed in [`demo_video/voiceover_script.txt`](demo_video/voiceover_script.txt).
 
 ## The app
 
@@ -106,7 +114,7 @@ ui/                 the window: menu, board, side panel, sounds
 tests/              26 automated tests
 results/            graphs, evaluation numbers, the full Q-table
 docs/               images and the project report
-demo_video/         the explainer video and its narration script
+demo_video/         the explainer video (two versions) and the voiceover script
 q_table.npz         the trained table (3,000 games)
 ```
 
@@ -116,8 +124,10 @@ The snake only knows the 7 facts above. It can't see the shape of its own body, 
 
 ## Team
 
-- Evans Pereira
-- Dakshat Jain
-- Shaurya Sanil
+| Name | Roll no. |
+|---|---|
+| Evans Pereira | 10689 |
+| Dakshat Jain | 10663 |
+| Shaurya Sanil | 10698 |
 
 *Academic mini project for Deep Learning & Reinforcement Learning.*
